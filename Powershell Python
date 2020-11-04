@@ -1,0 +1,17 @@
+Powershell PythonDjangoTest
+
+PS C:\Users\PrepMaster1> cd C:\PythonDjangoTest
+PS C:\PythonDjangoTest> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS C:\PythonDjangoTest> python -m venv myvenv
+PS C:\PythonDjangoTest> myvenv\Scripts\activate
+(myvenv) PS C:\PythonDjangoTest>python
+Python 3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ctrl-c exit help
+Use exit() or Ctrl-Z plus Return to exit
+>>> exit()
+(myvenv) PS C:\PythonDjangoTest>
+
+
+To Run the server
+(myvenv) PS C:\PythonDjangoTest> python manage.py runserver
